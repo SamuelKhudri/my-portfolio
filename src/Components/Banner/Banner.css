@@ -1,14 +1,15 @@
 .header {
     width: 100%;
     height: 100vh;
-    background: url('/src/Components/Images/bg.PNG');
+    background: url('https://i.ibb.co/wYF8Ksr/4b7078c0c92e1bae4bdaa0772d19999.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    overflow: hidden;
   }
 
  /* header */
 .header__content {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   height: 100vh;
