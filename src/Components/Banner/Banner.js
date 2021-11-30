@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import mypic from "../Images/myself.png";
 const Banner = () => {
     return (
-        <div className="header">
+        <div className="headerB">
             <div className="containerN">
                 <div className="row">
                     <div className="col-6">
