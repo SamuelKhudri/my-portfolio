@@ -150,10 +150,10 @@ button.view__more:hover{
 @media only screen and (max-width: 1024px){
 h5.project__text {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     padding-bottom: 20px;
 }
 h4.project__text {
-    font-size: 18px;
+    font-size: 10px;
 }
 }

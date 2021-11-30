@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import mypic from "../Images/myself.png";
 const Banner = () => {
     return (
-        <header className="header">
+        <div className="header">
             <div className="containerN">
                 <div className="row">
                     <div className="col-6">
@@ -58,7 +58,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     );
 };
 
