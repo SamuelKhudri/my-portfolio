@@ -28,7 +28,7 @@ function Contact() {
     }
 
     return (
-        <div className="contact component__space" >
+        <div id='contact' className="contact component__space" >
             <div style={{ paddingTop: '30px' }} className='container'>
                 <div className="row">
                     <div className="col__2">

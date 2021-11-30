@@ -15,7 +15,7 @@ const About = () => {
         { id: 4, title: "Linkedin", text: "Sakur Md abdus" },
     ]);
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="container">
                 <div className="common">
                     <h1 className="mainHeader">{header.subHeader}</h1>

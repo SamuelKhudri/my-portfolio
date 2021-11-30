@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 function Project() {
     return (
-        <div className="project component__space" id="Portfolio">
+        <div className="project component__space" id="projecredi">
             <div style={{ paddingTop: '30px' }} className="heading">
                 <h1 className="heading">My Latest Project</h1>
                 <p className="heading p__color">
@@ -30,7 +30,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 id="text-c" className="project__text">Full Stack Website (Diamond-Restaurant)</h5>
                                 <h4 id="text-c" className="project__text">Fully Responsive by using HTML,CSS,React,Node.js,MongoDB</h4>
-                                <NavLink style={{ color: "white" }} to="" className="project__btn">View Details</NavLink>
+                                <NavLink style={{ color: "white" }} to="/projects" className="project__btn">View Details</NavLink>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 id="text-c" className="project__text">Full Stack Website (Call-delivery)</h5>
                                 <h4 id="text-c" className="project__text">Fully Responsive by using HTML,CSS,React,Node.js,MongoDB</h4>
-                                <NavLink style={{ color: "white" }} to="" className="project__btn">View Details</NavLink>
+                                <NavLink style={{ color: "white" }} to="/projects" className="project__btn">View Details</NavLink>
                             </div>
                         </div>
                     </div>
@@ -60,12 +60,12 @@ function Project() {
                             <div className="project__meta absolute">
                                 <h5 id="text-c" className="project__text">Front-End Website (Health-Care)</h5>
                                 <h4 id="text-c" className="project__text">Fully Responsive by using HTML,CSS,React,Node.js,MongoDB</h4>
-                                <NavLink style={{ color: "white" }} to="" className="project__btn">View Details</NavLink>
+                                <NavLink style={{ color: "white" }} to="/projects" className="project__btn">View Details</NavLink>
                             </div>
                         </div>
                     </div>
                     <div style={{ marginBottom: '30px' }} className="">
-                        <center> <button className="view__more pointer btnP">View more</button></center>
+                        <center> <NavLink to="/projects"><button className="view__more pointer btnP">View more</button></NavLink> </center>
                     </div>
 
                 </div>
