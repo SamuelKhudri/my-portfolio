@@ -13,8 +13,8 @@ const Navbar = () => {
                         </div>
                     </ul>
                     <ul className="navbar__right">
-                        <li><Link to="">Home</Link></li>
                         <li><Link to="">About</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="">Projects</Link></li>
                         <li><Link to="">Skills</Link></li>
                         <li><Link to="">Contact</Link></li>

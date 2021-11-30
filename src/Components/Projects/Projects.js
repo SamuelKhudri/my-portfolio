@@ -8,17 +8,17 @@ import { NavLink } from "react-router-dom";
 function Project() {
     return (
         <div className="project component__space" id="Portfolio">
-            <div className="heading">
+            <div style={{ paddingTop: '30px' }} className="heading">
                 <h1 className="heading">My Latest Project</h1>
                 <p className="heading p__color">
-                    There are many variations of passages of Lorem Ipsum available,
+                    These all project has been developed based on React and node.js
                 </p>
                 <p className="heading p__color">
-                    but the majority have suffered alteration.
+                    Please click view more to know more about it
                 </p>
             </div>
             <div className="container">
-                <div className="row">
+                <div style={{ marginTop: '15px' }} className="row">
                     <div className="col__3">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
@@ -64,7 +64,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div style={{ marginBottom: '30px' }} className="">
                         <center> <button className="view__more pointer btnP">View more</button></center>
                     </div>
 

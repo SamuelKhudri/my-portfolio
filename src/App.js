@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Blog from './Components/Blog/Blog';
 import Home from './Components/Home/Home';
 import Notfound from './Components/Notfound/Notfound';
 
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           <Route exact path="*">
             <Notfound></Notfound>

@@ -67,7 +67,8 @@
   padding: 13px 40px;
 }
 .banner__img {
-  padding: 0 30px;
-  margin-top: 50px;
+  padding: 0 40px;
+  margin-top: 200px;
+  /* height: 500px; */
   /* height: 300px; -------*/
 } 
