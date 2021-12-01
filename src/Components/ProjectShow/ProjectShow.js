@@ -48,6 +48,14 @@ const projectShow = () => {
             <center>
                 <h2 className="project-head">My Projects</h2>
                 <div style={{ paddingBottom: "10px" }} className="commonBorder"></div>
+                <a
+                    href="AbdusSakurResumeFinal.pdf"
+                    download="AbdusSakurResumeFinal.pdf"
+                >
+                    <button to="" className="btn btn-outline">
+                        Get Resume
+                    </button>
+                </a>
             </center>
             <div class="box mt-5">
                 {projects.map((project) => <div >

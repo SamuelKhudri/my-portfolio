@@ -6,9 +6,10 @@ import {
     FaPinterest,
     FaInstagram,
 } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+
 import mypic from "../Images/myself.png";
 const Banner = () => {
+    const giturl = "https://github.com/SamuelKhudri";
     return (
         <div className="headerB">
             <div className="containerN">
@@ -44,9 +45,7 @@ const Banner = () => {
                                         </button>
                                     </a>
                                     &nbsp;&nbsp;&nbsp;
-                                    <Link to="" className="btn btn-outline">
-                                        GitHub
-                                    </Link>
+                                    <a href={giturl} target="_blank" className="btn btn-outline"> GitHub </a>
                                 </div>
                             </div>
                         </div>
