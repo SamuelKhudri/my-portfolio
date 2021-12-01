@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from "../Images/logo.png";
 import './Navbar.css';
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
                     </ul>
                     <ul className="navbar__right">
                         <li><a href="#about">About</a></li>
-                        <li><Link to="/blog">Blog</Link></li>
+                        <li><NavLink to="/blog">Blog</NavLink></li>
                         <li><a href="#projecredi">Projects</a></li>
                         <li><Link to="">Skills</Link></li>
                         <li><a href="#contact">Contact</a></li>
