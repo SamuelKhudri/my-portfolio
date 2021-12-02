@@ -5,11 +5,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 60px;
+  }
+
+  .header__section{
+    padding-top: 50px;
   }
 
  /* header */
 .header__content {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   height: 100vh;
