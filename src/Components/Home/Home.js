@@ -8,8 +8,8 @@ import Projects from '../Projects/Projects';
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
             <Navbar></Navbar>
+            <Banner></Banner>
             <Projects></Projects>
             <About></About>
             <Contact></Contact>

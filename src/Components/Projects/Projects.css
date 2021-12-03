@@ -20,6 +20,7 @@ p.heading.p__color {
 /* card style start */
 .project{
     background-color: #191919;
+    padding-top: 70px;
 }
 img.project__img {
     border-radius: 10px;
@@ -68,7 +69,12 @@ img.project__img::after{
     flex-wrap: wrap;
     border-radius: 10px;
     width: 100%;
+    
 }
+.col-gap{
+padding-bottom: 30px;
+}
+
 h5.project__text {
     font-weight: 700;
     font-size: 17px;
@@ -110,15 +116,15 @@ button.view__more:hover{
 }
 
 /*-------------grid part------------- */
-.row{
+/* .row{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
     align-items: flex-start;
     justify-content: center;
-  }
-  .col__2 {
+  } */
+  /* .col__2 {
     max-width: 50%;
     display: flex;
     padding: 20px;
@@ -132,7 +138,7 @@ button.view__more:hover{
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
-  }
+  } */
 /* ------------pointer----------- */
 .pointer{
     cursor: pointer;
@@ -147,7 +153,7 @@ button.view__more:hover{
 
 
 /* RESPONSIVE */
-@media only screen and (max-width: 1024px){
+/* @media only screen and (max-width: 1024px){
 h5.project__text {
     font-weight: 400;
     font-size: 12px;
@@ -156,4 +162,4 @@ h5.project__text {
 h4.project__text {
     font-size: 10px;
 }
-}
+} */

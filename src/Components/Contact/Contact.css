@@ -1,5 +1,6 @@
 .contact{
     background-color: #191919;
+    padding-bottom: 50px;
 }
 h1.hire__text {
     font-size: 60px;
@@ -30,9 +31,10 @@ input.contact{
     border: 2px solid hsla(0,0%,100%,.2);
 }
 .contact__img{
-    border-radius: 10px;
-    width: 100%;
-    /* overflow: hidden; */
+   padding-left: 60px;
+   height: 550px;
+   width: 430px;
+   padding-bottom: 50px;
 }
 textarea#message{
     height: 120px;

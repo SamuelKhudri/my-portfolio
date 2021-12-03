@@ -23,12 +23,12 @@ const About = () => {
                     <div className="commonBorder"></div>
                 </div>
                 <div className="row  h-650 alignCenter">
-                    <div className="col-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className="about__img">
                             <img src={myself1} alt="man" />
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-lg-6">
                         <div className="about__info">
                             <h1>Hi</h1>
                             <div className="about__info-p1">
@@ -40,15 +40,15 @@ const About = () => {
                                 I love travelling a lot. Sometimes i would love to read books to learn new things and i always find myself
                                 in a new way to explore myself. i always beleive in myself that everything has a solution just need patience.
                             </div>
-                            <div className="info__contacts">
-                                <div className="row">
-                                    {state.map((info) => (
-                                        <div className="col-6">
-                                            <strong>{info.title}</strong>
-                                            <p>{info.text}</p>
-                                        </div>
-                                    ))}
-                                </div>
+                        </div>
+                        <div className="info__contacts">
+                            <div className="row">
+                                {state.map((info) => (
+                                    <div className="col-md-12 col-lg-6 col-12 about-det">
+                                        <strong>{info.title}</strong>
+                                        <p>{info.text}</p>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>

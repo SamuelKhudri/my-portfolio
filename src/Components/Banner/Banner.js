@@ -12,9 +12,9 @@ const Banner = () => {
     const giturl = "https://github.com/SamuelKhudri";
     return (
         <div className="headerB">
-            <div className="containerN">
-                <div className="row">
-                    <div className="col-6">
+            <div className="container">
+                <div className="row row-size">
+                    <div className="col-md-12 col-lg-6">
                         <div className="header__content">
                             <div className="header__section">
                                 <ul className="header__ul">
@@ -31,7 +31,7 @@ const Banner = () => {
                                         <FaInstagram className="headerIcon" />
                                     </li>
                                 </ul>
-                                <h1>I'm Md Abdus Sakur</h1>
+                                <h1 className='h1-header'>I'm Md Abdus Sakur</h1>
                                 <p>I am not professional and experienced but I am confident with my work what I know. Simply
                                     I always like to learn new things from new people and like to fill up my lack and want to
                                     improve new skills.</p>
@@ -40,19 +40,19 @@ const Banner = () => {
                                         href="AbdusSakurResumeFinal.pdf"
                                         download="AbdusSakurResumeFinal.pdf"
                                     >
-                                        <button to="" className="btn btn-outline">
+                                        <button to="" className="mb-3 btn btn-outline">
                                             Get Resume
                                         </button>
                                     </a>
                                     &nbsp;&nbsp;&nbsp;
-                                    <a href={giturl} target="_blank" className="btn btn-outline"> GitHub </a>
+                                    <a href={giturl} target="_blank" className=" mb-3 btn btn-outline"> GitHub </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className="banner__img">
-                            <img src={mypic} alt="man" />
+                            <img className='img-fluid' src={mypic} alt="man" />
                         </div>
                     </div>
                 </div>

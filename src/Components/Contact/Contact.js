@@ -31,7 +31,7 @@ function Contact() {
         <div id='contact' className="contact component__space" >
             <div style={{ paddingTop: '30px' }} className='container'>
                 <div className="row">
-                    <div className="col__2">
+                    <div className="col-lg-6 col-md-6 col-12">
                         <div className="contact__box">
                             <div className="contact__meta">
                                 <h1 className="hire__text">Get in Touch.</h1>
@@ -49,8 +49,8 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="col__2">
-                        <img style={{ paddingBottom: '30px' }} src={contactImg} alt="" className="contact__img" />
+                    <div className="col-lg-6 col-md-6 col-12">
+                        <img src={contactImg} alt="" className=" contact__img img-fluid " />
                     </div>
                 </div>
             </div>

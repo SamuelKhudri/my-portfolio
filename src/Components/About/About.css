@@ -54,6 +54,10 @@
   .info__contacts p {
     margin-top: 3px;
   }
-  .info__contacts .col-6 {
+  .info__contacts .col-12 {
     margin: 10px 0;
+  }
+  .about-det{
+    color: white;
+    font-weight: 400;
   }

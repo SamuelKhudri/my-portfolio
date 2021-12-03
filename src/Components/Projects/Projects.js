@@ -17,9 +17,9 @@ function Project() {
                     Please click view more to know more about it
                 </p>
             </div>
-            <div className="container">
-                <div style={{ marginTop: '15px' }} className="row">
-                    <div className="col__3">
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-lg-4 col-md-6 col-12 mb-5">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -34,7 +34,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col__3">
+                    <div className="col-lg-4 col-md-6 col-12 mb-5">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -49,7 +49,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col__3">
+                    <div className="col-lg-4 col-md-6 col-12 mb-5">
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
@@ -64,7 +64,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div style={{ marginBottom: '30px' }} className="">
+                    <div style={{ marginBottom: '30px', marginTop: '20px' }} className="">
                         <center> <NavLink to="/projects"><button className="view__more pointer btnP">View more</button></NavLink> </center>
                     </div>
 

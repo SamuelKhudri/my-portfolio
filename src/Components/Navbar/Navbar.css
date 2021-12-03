@@ -1,4 +1,35 @@
-.navbar {
+
+.navbar-nav{
+  margin-left: 100px;
+  
+}
+.navbar-nav a {
+  color: white !important;
+  font-weight: 500 !important;
+}
+.navbar-nav li{
+  padding-left: 60px;
+}
+.nav-bgcolor{
+  background-color: #33337cbd;
+  
+}
+
+.navmother{
+  width: 100%;
+    height: 100px;
+    position: fixed !important;
+    top: 0;
+    margin: 0%;
+    padding: 0%;
+    background: #1f2135;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+/* .navbar {
     width: 100%;
     height: 100px;
     position: fixed;
@@ -31,8 +62,7 @@
     padding: 0 15px;
   }
   
-  /* Helpers */
   .containerN {
     width: 1200px;
     margin: 0 auto;
-  }
+  } */
