@@ -4,6 +4,33 @@ const projectShow = () => {
     const projects = [
         {
             id: "1",
+            name: "Full Stack Website (Wish-Collection)",
+            img1: "https://i.ibb.co/gTYXyZp/4.png",
+            img2: "https://i.ibb.co/nQC2n8K/5.png",
+            img3: "https://i.ibb.co/hcfLqHb/6.png",
+            summery: "In this project user can order specific item, All ordinary users can log in and log out and their name will be displayed. All the route is redirect",
+            details: "• For Client-Site code I use same function like above mentioned project. • In the clint site I use mongo dB atlas, node-express, React.js, Axios and Cors and two types of login system. • Fully responsive website.  Normally users can order products, delete item, give review",
+            technology: "HTML, CSS, Bootstrap, Tailwind, Node.js, Firebase, MongoDB, Express, Stripe",
+            client: "https://github.com/SamuelKhudri/wish-collection-client",
+            server: "https://github.com/SamuelKhudri/wish-collection-server",
+            live: "https://wish-collection-7fc6e.web.app/"
+        },
+        {
+            id: "2",
+            name: "Full Stack-Group(Wish-carZ)",
+            img1: "https://i.ibb.co/26bcV3L/1.png",
+            img2: "https://i.ibb.co/Nrh3Z3q/2.png",
+            img3: "https://i.ibb.co/bBgk77P/3.png",
+            summery: "In this project user can order specific item, All ordinary users can log in and log out and their name will be displayed. All the route is redirect",
+            details: "•	This project is just Front-End website with firebase, HTML, CSS, React and Node.js.• I use json data from public folder to get data.• I use Netlify deploy for live site",
+            technology: "HTML, CSS, Bootstrap,  Node.js, Firebase, Stripe",
+            client: "https://github.com/abdullah-mumin/wish_client/tree/sakur/",
+            server: "https://github.com/abdullah-mumin/wish_server/tree/sakur",
+            live: "https://wish-carz-510b1.web.app/",
+            report: "https://docs.google.com/presentation/d/1e4R04nF2UAQkdJFZ4t5dzPUPppcKKfqTPYXvwvK7I8k/edit#slide=id.g108d126d638_0_133"
+        },
+        {
+            id: "3",
             name: "Full Stack Website (Diamond-Restaurant)",
             img1: "https://i.ibb.co/C10QNfm/f06d7fedf665667f5e6e5cb32b631cd.png",
             img2: "https://i.ibb.co/yS0Mkpn/c1212dd9d3c49a2931ad313eddacee7.png",
@@ -14,32 +41,6 @@ const projectShow = () => {
             client: "https://github.com/SamuelKhudri/Diamond-Restora-Client",
             server: "https://github.com/SamuelKhudri/Diamond-Restora-server",
             live: "https://diamond-restaurant.web.app/"
-        },
-        {
-            id: "2",
-            name: "Full Stack Website (Call-delivery)",
-            img1: "https://i.ibb.co/c89TTrb/2ccf4952148975693c0385c1ede9cd3.png",
-            img2: "https://i.ibb.co/Qr70G8G/58035505c1613a811a8a1fdaab2489b.png",
-            img3: "https://i.ibb.co/tQv7DqQ/c17434545df286ae2f9f67c92c31722.png",
-            summery: "In this project user can order specific item, All ordinary users can log in and log out and their name will be displayed. All the route is redirect",
-            details: "• For Client-Site code I use same function like above mentioned project. • In the clint site I use mongo dB atlas, node-express, React.js, Axios and Cors and two types of login system. • Fully responsive website.  Normally users can order products, delete item, give review",
-            technology: "HTML, CSS, Bootstrap, Tailwind, Node.js, Firebase, MongoDB, Express",
-            client: "https://github.com/SamuelKhudri/call-deliver-client",
-            server: "https://github.com/SamuelKhudri/call-deliver-server",
-            live: "https://simple-firebase-authenti-b4a63.web.app/"
-        },
-        {
-            id: "3",
-            name: "Front-End Website (Health-Care)",
-            img1: "https://i.ibb.co/28dBvhG/fb650f80fd9c8982f25fdc8b733d12d.png",
-            img2: "https://i.ibb.co/rvVTr8X/0609e82ba15e751431ebc6073131afa.png",
-            img3: "https://i.ibb.co/9yXx2HJ/3a548e2fbdc91b1d82902a0f34d69cb.png",
-            summery: "In this project user can order specific item, All ordinary users can log in and log out and their name will be displayed. All the route is redirect",
-            details: "•	This project is just Front-End website with firebase, HTML, CSS, React and Node.js.• I use json data from public folder to get data.• I use Netlify deploy for live site",
-            technology: "HTML, CSS, Bootstrap,  Node.js, Firebase",
-            client: "https://github.com/SamuelKhudri/health-care-web",
-            server: "",
-            live: "https://fir-ema-john.web.app/"
         },
 
     ]
