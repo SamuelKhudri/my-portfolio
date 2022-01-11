@@ -58,67 +58,65 @@ const projectShow = () => {
                     </button>
                 </a>
             </center>
-            <center>
-                <div class="box mt-5">
-                    {projects.map((project) => <div >
-                        <div className='card-flexx'>
-                            <div class="card">
-                                <div class="imgBx">
-                                    <img src={project.img1} alt="images" />
-                                </div>
-                                <div class="details">
-                                    <h2>{project.name}</h2>
-                                </div>
+            <div class="box mt-5">
+                {projects.map((project) => <div >
+                    <div className='card-flexx'>
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src={project.img1} alt="images" />
                             </div>
-
-                            <div class="card">
-                                <div class="imgBx">
-                                    <img src={project.img2} alt="images" />
-                                </div>
-                                <div class="details">
-                                    <h2>{project.name}</h2>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="imgBx">
-                                    <img src={project.img3} alt="images" />
-                                </div>
-                                <div class="details">
-                                    <h2>{project.name}</h2>
-                                </div>
+                            <div class="details">
+                                <h2>{project.name}</h2>
                             </div>
                         </div>
-                        <div className="card-element">
-                            <h2 style={{ color: '#ff4a57', fontWeight: '700' }}>{project.name}</h2>
-                            <p style={{ color: 'white', fontWeight: '500' }}>
-                                <span>Description: </span>
-                                {project.summery}
-                            </p>
-                            <p style={{ color: 'white', fontWeight: '500' }}>
-                                <span>Technology: </span>
-                                {project.technology}
-                            </p>
-                            <p style={{ color: 'white', fontWeight: '500' }}>
-                                <span>User Function: </span>
-                                {project.details}
-                            </p>
-                            <a className='link-clr' target="_blank" href={project.client}>
-                                {" "}
-                                Client Side link
-                            </a>
-                            <a className='link-clr' target="_blank" href={project.server}>
-                                {" "}
-                                Server Side link
-                            </a>
-                            <a className='link-clr' target="_blank" href={project.live}>
-                                {" "}
-                                Live Site link
-                            </a>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src={project.img2} alt="images" />
+                            </div>
+                            <div class="details">
+                                <h2>{project.name}</h2>
+                            </div>
                         </div>
-                    </div>)}
-                </div>
-            </center>
+
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src={project.img3} alt="images" />
+                            </div>
+                            <div class="details">
+                                <h2>{project.name}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-element">
+                        <h2 style={{ color: '#ff4a57', fontWeight: '700' }}>{project.name}</h2>
+                        <p style={{ color: 'white', fontWeight: '500' }}>
+                            <span>Description: </span>
+                            {project.summery}
+                        </p>
+                        <p style={{ color: 'white', fontWeight: '500' }}>
+                            <span>Technology: </span>
+                            {project.technology}
+                        </p>
+                        <p style={{ color: 'white', fontWeight: '500' }}>
+                            <span>User Function: </span>
+                            {project.details}
+                        </p>
+                        <a className='link-clr' target="_blank" href={project.client}>
+                            {" "}
+                            Client Side link
+                        </a>
+                        <a className='link-clr' target="_blank" href={project.server}>
+                            {" "}
+                            Server Side link
+                        </a>
+                        <a className='link-clr' target="_blank" href={project.live}>
+                            {" "}
+                            Live Site link
+                        </a>
+                    </div>
+                </div>)}
+            </div>
         </div>
     );
 };
